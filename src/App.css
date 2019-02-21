@@ -1,32 +1,121 @@
-.App {
-  text-align: center;
+h1 {
+  font-size: 2.2rem !important;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.col-m {
+  margin-top: 10%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.fontbtn, td {
+  font-size: 1.2rem !important;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media(max-width:440px) {
+  h1 {
+    font-size: 1.7rem !important;
   }
-  to {
-    transform: rotate(360deg);
+  .col-m {
+    margin-top: 44%;
   }
+  .fontbtn, td {
+    font-size: 1.2rem !important;
+  }
+}
+
+.font-damion {
+  font-family: 'Damion, cursive'
+}
+
+.font-pacifico {
+  font-family: 'Pacifico, cursive'
+}
+
+.font-Lato {
+  font-family: 'Lato, sans-serif'
+}
+
+.t-w {
+  color: white !important;
+  border-color: white !important;
+  border-radius: 100px !important;
+}
+
+.font-monteserrat {
+  font-family: 'Monteserrat, sans-serif'
+}
+
+.fontLink, th {
+  font-size: 1.1rem !important;
+}
+
+th {
+  letter-spacing: 3px;
+}
+
+.fa-bars {
+  margin-top: 30px !important;
+  border: 2px solid white;
+  padding: 1rem;
+  border-radius: 50%;
+  font-size: 16px;
+}
+
+.fa-bars:hover {
+  color: black !important;
+}
+
+.btn:hover {
+  background: white !important;
+  color: black !important;
+}
+
+.phy {
+  position: absolute;
+  top: 27px;
+  font-size: 2.4rem !important;
+}
+
+.phy:hover{
+  opacity:.9;
+}
+
+.custom-container {
+  padding-left: 350px;
+  padding-right: 350px;
+}
+
+i:hover {
+  background: white;
+}
+
+.btn-primary.dropdown-toggle {
+  background-color: #0d47a1 !important;
+  box-shadow: none;
+}
+
+.card{
+  background-color: #0d47a1 !important;
+  border:2px solid white;
+  margin-left: 32px;
+}
+
+ul li a:hover{
+  opacity:.8;
+}
+
+.particle{
+  position: absolutet;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+
+.sub{
+  font-size: 1.19rem;
+  word-spacing: 1px;
+}
+
+.text-underline{
+  text-decoration: underline;
 }
